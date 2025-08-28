@@ -1,0 +1,32 @@
+# Java compiled output
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+*.log.*
+logs/
+
+# IDE-specific files and directories
+.idea/                 # IntelliJ IDEA
+.vscode/               # VS Code (if you don't want to share workspace settings)
+.project               # Eclipse
+.classpath             # Eclipse
+.settings/             # Eclipse
+target/                # Maven build output
+build/                 # Gradle build output
+bin/                   # Common output directory
+
+# Operating System files
+.DS_Store              # macOS
+Thumbs.db              # Windows
+
+# SQLite database files
+*.db

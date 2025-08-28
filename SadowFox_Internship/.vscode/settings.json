@@ -1,0 +1,21 @@
+{
+    // This setting tells VS Code's Java extension where to find your libraries.
+    // The "lib/**/*.jar" pattern tells it to look for all JAR files
+    // within a 'lib' folder and its subdirectories.
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    
+    // This setting is optional but recommended if you need to pass
+    // arguments to the JVM for specific extensions or frameworks.
+    // You would typically use this for a modular JavaFX setup.
+    // For JUnit, the referencedLibraries setting is usually enough.
+    "java.vmargs": "",
+
+    // This setting configures the Test Explorer to use the JUnit Test Runner.
+    // This is often automatically configured by the extension, but it's
+    // good to have in case of issues.
+    "java.test.config": {
+        "junit.jupiter.version": "5.9.3"
+    }
+}
